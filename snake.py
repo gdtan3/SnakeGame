@@ -1,6 +1,5 @@
 import pygame
 
-
 def collides(s, a):
    
 
