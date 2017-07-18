@@ -10,6 +10,10 @@ class Snake:
         self.rect_width = 20;
         self.rect_height = 20;
 
+    def update_pos(self, x, y):
+        self.posX = x
+        self.posY= y
+        
 
     def update_dir(self, x, y):
         self.x_vel = x;
