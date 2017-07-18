@@ -13,7 +13,9 @@ class Snake:
     def update_pos(self, x, y):
         self.posX = x
         self.posY= y
-        
+
+    def get_pos(self):
+        return [self.posX, self.posY]
 
     def update_dir(self, x, y):
         self.x_vel = x;

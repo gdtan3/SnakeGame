@@ -29,4 +29,5 @@ class Apple:
                                               self.apple_height))
         
 
-    
+    def get_pos(self):
+        return [self.x, self.y]
